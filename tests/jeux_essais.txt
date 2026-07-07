@@ -1,0 +1,22 @@
+--- RAPPORT DE TESTS DU SYSTÈME ---
+Projet : Gestion de Cabinet Médical
+
+1. Test Insertion Patient : 
+   - Action : Ajout d'un nouveau patient.
+   - Résultat : Succès.
+
+2. Test Insertion Visite :
+   - Action : Création d'une visite pour un patient existant.
+   - Résultat : Succès.
+
+3. Test Trigger (Contrainte de date) :
+   - Action : Tentative d'insertion d'une date future.
+   - Résultat : REJETÉ (Conforme aux règles de gestion).
+
+4. Test Requête SQL (Statistiques) :
+   - Action : Calcul du nombre de visites par médecin.
+   - Résultat : Données extraites avec succès.
+
+5. Test Module Python (Connexion) :
+   - Action : Lancement du script de connexion.
+   - Résultat : Connexion à cabinet.db établie.
